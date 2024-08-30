@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.box1, .box2, .box3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.box1 {
+    background-color: #ff5733;
+    top: 50px;
+    left: 50px;
+    z-index: 3;
+}
+
+.box2 {
+    background-color: #33ff57;
+    top: 100px;
+    left: 100px;
+    z-index: 2; 
+}
+
+.box3 {
+    background-color: #3357ff;
+    top: 150px;
+    left: 150px;
+    z-index: 1;
+}

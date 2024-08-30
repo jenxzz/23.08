@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.left {
+    background-color: #ff5733;
+    float: left;
+    width: 20%;
+    padding: 20px;
+    color: white;
+    height: 200px;
+    border: 1px solid #999;
+}
+
+.center {
+    background-color: #33ff57;
+    float: left;
+    width: 60%;
+    padding: 20px;
+    color: white;
+    height: 200px;
+    border: 1px solid #999;
+}
+
+.right {
+    background-color: #3357ff;
+    float: left;
+    width: 20%;
+    padding: 20px;
+    color: white;
+    height: 200px;
+    border: 1px solid #999;
+}
+
